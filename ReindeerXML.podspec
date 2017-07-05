@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "Reindeer"
+  s.name             = "ReindeerXML"
   s.summary          = "XML in Swift"
   s.version          = "0.1.0"
   s.homepage         = "https://github.com/onmyway133/Reindeer"
@@ -20,13 +20,13 @@ Pod::Spec.new do |s|
 
   s.preserve_paths = 'CocoaPods/**/*'
   s.pod_target_xcconfig = {
-    #'SWIFT_INCLUDE_PATHS[sdk=macosx*]'           => '$(PODS_ROOT)/Reindeer/CocoaPods/macosx',
-    'SWIFT_INCLUDE_PATHS[sdk=iphoneos*]'         => '$(PODS_ROOT)/Reindeer/CocoaPods/iphoneos',
-    'SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]'  => '$(PODS_ROOT)/Reindeer/CocoaPods/iphonesimulator',
-    #'SWIFT_INCLUDE_PATHS[sdk=appletvos*]'        => '$(PODS_ROOT)/Reindeer/CocoaPods/appletvos',
-    #'SWIFT_INCLUDE_PATHS[sdk=appletvsimulator*]' => '$(PODS_ROOT)/Reindeer/CocoaPods/appletvsimulator',
-    #'SWIFT_INCLUDE_PATHS[sdk=watchos*]'          => '$(PODS_ROOT)/Reindeer/CocoaPods/watchos',
-    #'SWIFT_INCLUDE_PATHS[sdk=watchsimulator*]'   => '$(PODS_ROOT)/Reindeer/CocoaPods/watchsimulator'
+    #'SWIFT_INCLUDE_PATHS[sdk=macosx*]'           => '$(PODS_ROOT)/ReindeerXML/CocoaPods/macosx',
+    'SWIFT_INCLUDE_PATHS[sdk=iphoneos*]'         => '$(PODS_ROOT)/ReindeerXML/CocoaPods/iphoneos',
+    'SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]'  => '$(PODS_ROOT)/ReindeerXML/CocoaPods/iphonesimulator',
+    #'SWIFT_INCLUDE_PATHS[sdk=appletvos*]'        => '$(PODS_ROOT)/ReindeerXML/CocoaPods/appletvos',
+    #'SWIFT_INCLUDE_PATHS[sdk=appletvsimulator*]' => '$(PODS_ROOT)/ReindeerXML/CocoaPods/appletvsimulator',
+    #'SWIFT_INCLUDE_PATHS[sdk=watchos*]'          => '$(PODS_ROOT)/ReindeerXML/CocoaPods/watchos',
+    #'SWIFT_INCLUDE_PATHS[sdk=watchsimulator*]'   => '$(PODS_ROOT)/ReindeerXML/CocoaPods/watchsimulator'
   }
 
   s.library = "xml2"

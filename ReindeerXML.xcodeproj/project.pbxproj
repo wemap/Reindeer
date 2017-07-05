@@ -32,8 +32,8 @@
 		D2B75A891DAA94AF00178EB7 /* test3.html in Resources */ = {isa = PBXBuildFile; fileRef = D2B75A871DAA94AF00178EB7 /* test3.html */; };
 		D2B75A8B1DAA94B900178EB7 /* test4.svg in Resources */ = {isa = PBXBuildFile; fileRef = D2B75A8A1DAA94B900178EB7 /* test4.svg */; };
 		D2B75A8C1DAA94B900178EB7 /* test4.svg in Resources */ = {isa = PBXBuildFile; fileRef = D2B75A8A1DAA94B900178EB7 /* test4.svg */; };
-		D5B2E8AA1C3A780C00C0327D /* Reindeer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* Reindeer.framework */; };
-		D5C6294A1C3A7FAA007F7B7C /* Reindeer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* Reindeer.framework */; };
+		D5B2E8AA1C3A780C00C0327D /* ReindeerXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* ReindeerXML.framework */; };
+		D5C6294A1C3A7FAA007F7B7C /* ReindeerXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* ReindeerXML.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,10 +69,10 @@
 		D2B75A8A1DAA94B900178EB7 /* test4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test4.svg; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; };
 		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
-		D5B2E89F1C3A780C00C0327D /* Reindeer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reindeer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5B2E8A91C3A780C00C0327D /* Reindeer-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reindeer-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5C629401C3A7FAA007F7B7C /* Reindeer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reindeer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5C629491C3A7FAA007F7B7C /* Reindeer-Mac-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reindeer-Mac-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B2E89F1C3A780C00C0327D /* ReindeerXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReindeerXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B2E8A91C3A780C00C0327D /* ReindeerXML-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReindeerXML-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C629401C3A7FAA007F7B7C /* ReindeerXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReindeerXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C629491C3A7FAA007F7B7C /* ReindeerXML-Mac-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReindeerXML-Mac-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C6298B1C3A8BBD007F7B7C /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		D5C6298C1C3A8BBD007F7B7C /* Info-Mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Mac.plist"; sourceTree = "<group>"; };
 		D5C629901C3A8BDA007F7B7C /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5B2E8AA1C3A780C00C0327D /* Reindeer.framework in Frameworks */,
+				D5B2E8AA1C3A780C00C0327D /* ReindeerXML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C6294A1C3A7FAA007F7B7C /* Reindeer.framework in Frameworks */,
+				D5C6294A1C3A7FAA007F7B7C /* ReindeerXML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,10 +128,10 @@
 		D5B2E8A01C3A780C00C0327D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5B2E89F1C3A780C00C0327D /* Reindeer.framework */,
-				D5B2E8A91C3A780C00C0327D /* Reindeer-iOS-Tests.xctest */,
-				D5C629401C3A7FAA007F7B7C /* Reindeer.framework */,
-				D5C629491C3A7FAA007F7B7C /* Reindeer-Mac-Tests.xctest */,
+				D5B2E89F1C3A780C00C0327D /* ReindeerXML.framework */,
+				D5B2E8A91C3A780C00C0327D /* ReindeerXML-iOS-Tests.xctest */,
+				D5C629401C3A7FAA007F7B7C /* ReindeerXML.framework */,
+				D5C629491C3A7FAA007F7B7C /* ReindeerXML-Mac-Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,9 +194,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D5B2E89E1C3A780C00C0327D /* Reindeer-iOS */ = {
+		D5B2E89E1C3A780C00C0327D /* ReindeerXML-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5B2E8B31C3A780C00C0327D /* Build configuration list for PBXNativeTarget "Reindeer-iOS" */;
+			buildConfigurationList = D5B2E8B31C3A780C00C0327D /* Build configuration list for PBXNativeTarget "ReindeerXML-iOS" */;
 			buildPhases = (
 				D5B2E89A1C3A780C00C0327D /* Sources */,
 				D5B2E89B1C3A780C00C0327D /* Frameworks */,
@@ -207,14 +207,14 @@
 			);
 			dependencies = (
 			);
-			name = "Reindeer-iOS";
+			name = "ReindeerXML-iOS";
 			productName = Reindeer;
-			productReference = D5B2E89F1C3A780C00C0327D /* Reindeer.framework */;
+			productReference = D5B2E89F1C3A780C00C0327D /* ReindeerXML.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D5B2E8A81C3A780C00C0327D /* Reindeer-iOS-Tests */ = {
+		D5B2E8A81C3A780C00C0327D /* ReindeerXML-iOS-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5B2E8B61C3A780C00C0327D /* Build configuration list for PBXNativeTarget "Reindeer-iOS-Tests" */;
+			buildConfigurationList = D5B2E8B61C3A780C00C0327D /* Build configuration list for PBXNativeTarget "ReindeerXML-iOS-Tests" */;
 			buildPhases = (
 				D5B2E8A51C3A780C00C0327D /* Sources */,
 				D5B2E8A61C3A780C00C0327D /* Frameworks */,
@@ -225,14 +225,14 @@
 			dependencies = (
 				D5B2E8AC1C3A780C00C0327D /* PBXTargetDependency */,
 			);
-			name = "Reindeer-iOS-Tests";
+			name = "ReindeerXML-iOS-Tests";
 			productName = ReindeerTests;
-			productReference = D5B2E8A91C3A780C00C0327D /* Reindeer-iOS-Tests.xctest */;
+			productReference = D5B2E8A91C3A780C00C0327D /* ReindeerXML-iOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D5C6293F1C3A7FAA007F7B7C /* Reindeer-Mac */ = {
+		D5C6293F1C3A7FAA007F7B7C /* ReindeerXML-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5C629511C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "Reindeer-Mac" */;
+			buildConfigurationList = D5C629511C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "ReindeerXML-Mac" */;
 			buildPhases = (
 				D5C6293B1C3A7FAA007F7B7C /* Sources */,
 				D5C6293C1C3A7FAA007F7B7C /* Frameworks */,
@@ -243,14 +243,14 @@
 			);
 			dependencies = (
 			);
-			name = "Reindeer-Mac";
+			name = "ReindeerXML-Mac";
 			productName = "Reindeer-Mac";
-			productReference = D5C629401C3A7FAA007F7B7C /* Reindeer.framework */;
+			productReference = D5C629401C3A7FAA007F7B7C /* ReindeerXML.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D5C629481C3A7FAA007F7B7C /* Reindeer-Mac-Tests */ = {
+		D5C629481C3A7FAA007F7B7C /* ReindeerXML-Mac-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5C629541C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "Reindeer-Mac-Tests" */;
+			buildConfigurationList = D5C629541C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "ReindeerXML-Mac-Tests" */;
 			buildPhases = (
 				D5C629451C3A7FAA007F7B7C /* Sources */,
 				D5C629461C3A7FAA007F7B7C /* Frameworks */,
@@ -261,9 +261,9 @@
 			dependencies = (
 				D5C6294C1C3A7FAA007F7B7C /* PBXTargetDependency */,
 			);
-			name = "Reindeer-Mac-Tests";
+			name = "ReindeerXML-Mac-Tests";
 			productName = "Reindeer-MacTests";
-			productReference = D5C629491C3A7FAA007F7B7C /* Reindeer-Mac-Tests.xctest */;
+			productReference = D5C629491C3A7FAA007F7B7C /* ReindeerXML-Mac-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -294,7 +294,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D5B2E8991C3A780C00C0327D /* Build configuration list for PBXProject "Reindeer" */;
+			buildConfigurationList = D5B2E8991C3A780C00C0327D /* Build configuration list for PBXProject "ReindeerXML" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -306,10 +306,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5B2E89E1C3A780C00C0327D /* Reindeer-iOS */,
-				D5C6293F1C3A7FAA007F7B7C /* Reindeer-Mac */,
-				D5B2E8A81C3A780C00C0327D /* Reindeer-iOS-Tests */,
-				D5C629481C3A7FAA007F7B7C /* Reindeer-Mac-Tests */,
+				D5B2E89E1C3A780C00C0327D /* ReindeerXML-iOS */,
+				D5C6293F1C3A7FAA007F7B7C /* ReindeerXML-Mac */,
+				D5B2E8A81C3A780C00C0327D /* ReindeerXML-iOS-Tests */,
+				D5C629481C3A7FAA007F7B7C /* ReindeerXML-Mac-Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -404,12 +404,12 @@
 /* Begin PBXTargetDependency section */
 		D5B2E8AC1C3A780C00C0327D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D5B2E89E1C3A780C00C0327D /* Reindeer-iOS */;
+			target = D5B2E89E1C3A780C00C0327D /* ReindeerXML-iOS */;
 			targetProxy = D5B2E8AB1C3A780C00C0327D /* PBXContainerItemProxy */;
 		};
 		D5C6294C1C3A7FAA007F7B7C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D5C6293F1C3A7FAA007F7B7C /* Reindeer-Mac */;
+			target = D5C6293F1C3A7FAA007F7B7C /* ReindeerXML-Mac */;
 			targetProxy = D5C6294B1C3A7FAA007F7B7C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -535,7 +535,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Reindeer-iOS";
-				PRODUCT_NAME = Reindeer;
+				PRODUCT_NAME = ReindeerXML;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -555,7 +555,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Reindeer-iOS";
-				PRODUCT_NAME = Reindeer;
+				PRODUCT_NAME = ReindeerXML;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -612,7 +612,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Reindeer-Mac";
-				PRODUCT_NAME = Reindeer;
+				PRODUCT_NAME = ReindeerXML;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -636,7 +636,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Reindeer-Mac";
-				PRODUCT_NAME = Reindeer;
+				PRODUCT_NAME = ReindeerXML;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -689,7 +689,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5B2E8991C3A780C00C0327D /* Build configuration list for PBXProject "Reindeer" */ = {
+		D5B2E8991C3A780C00C0327D /* Build configuration list for PBXProject "ReindeerXML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5B2E8B11C3A780C00C0327D /* Debug */,
@@ -698,7 +698,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B2E8B31C3A780C00C0327D /* Build configuration list for PBXNativeTarget "Reindeer-iOS" */ = {
+		D5B2E8B31C3A780C00C0327D /* Build configuration list for PBXNativeTarget "ReindeerXML-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5B2E8B41C3A780C00C0327D /* Debug */,
@@ -707,7 +707,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B2E8B61C3A780C00C0327D /* Build configuration list for PBXNativeTarget "Reindeer-iOS-Tests" */ = {
+		D5B2E8B61C3A780C00C0327D /* Build configuration list for PBXNativeTarget "ReindeerXML-iOS-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5B2E8B71C3A780C00C0327D /* Debug */,
@@ -716,7 +716,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5C629511C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "Reindeer-Mac" */ = {
+		D5C629511C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "ReindeerXML-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5C629521C3A7FAA007F7B7C /* Debug */,
@@ -725,7 +725,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5C629541C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "Reindeer-Mac-Tests" */ = {
+		D5C629541C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "ReindeerXML-Mac-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5C629551C3A7FAA007F7B7C /* Debug */,
