@@ -8,19 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		D2525A551DAAD1AB002E759E /* Element+Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2525A541DAAD1AB002E759E /* Element+Query.swift */; };
+		D2525A561DAAD1AB002E759E /* Element+Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2525A541DAAD1AB002E759E /* Element+Query.swift */; };
 		D29680371DA98BB600F42E33 /* Reindeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29680361DA98BB600F42E33 /* Reindeer.swift */; };
+		D29680381DA98BB600F42E33 /* Reindeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29680361DA98BB600F42E33 /* Reindeer.swift */; };
 		D29680421DA99B8200F42E33 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29680411DA99B8200F42E33 /* Document.swift */; };
 		D29680441DA99B8800F42E33 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29680431DA99B8800F42E33 /* Element.swift */; };
+		D29680451DA99B8C00F42E33 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29680431DA99B8800F42E33 /* Element.swift */; };
+		D29680461DA99B8E00F42E33 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29680411DA99B8200F42E33 /* Document.swift */; };
 		D29680481DA99E6C00F42E33 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29680471DA99E6C00F42E33 /* Error.swift */; };
 		D296804C1DAA311100F42E33 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296804B1DAA311100F42E33 /* Extensions.swift */; };
+		D296804D1DAA311100F42E33 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296804B1DAA311100F42E33 /* Extensions.swift */; };
 		D296804F1DAA691A00F42E33 /* Element+XPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296804E1DAA691A00F42E33 /* Element+XPath.swift */; };
+		D29680501DAA691A00F42E33 /* Element+XPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296804E1DAA691A00F42E33 /* Element+XPath.swift */; };
 		D29680521DAA773900F42E33 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29680511DAA773900F42E33 /* Tests.swift */; };
+		D29680531DAA773900F42E33 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29680511DAA773900F42E33 /* Tests.swift */; };
 		D29680551DAA777F00F42E33 /* test1.xml in Resources */ = {isa = PBXBuildFile; fileRef = D29680541DAA777F00F42E33 /* test1.xml */; };
+		D29680561DAA777F00F42E33 /* test1.xml in Resources */ = {isa = PBXBuildFile; fileRef = D29680541DAA777F00F42E33 /* test1.xml */; };
 		D29680581DAA778A00F42E33 /* test2.xml in Resources */ = {isa = PBXBuildFile; fileRef = D29680571DAA778A00F42E33 /* test2.xml */; };
+		D29680591DAA778A00F42E33 /* test2.xml in Resources */ = {isa = PBXBuildFile; fileRef = D29680571DAA778A00F42E33 /* test2.xml */; };
 		D296805B1DAA779700F42E33 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296805A1DAA779700F42E33 /* Utils.swift */; };
+		D296805C1DAA779700F42E33 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D296805A1DAA779700F42E33 /* Utils.swift */; };
 		D2B75A881DAA94AF00178EB7 /* test3.html in Resources */ = {isa = PBXBuildFile; fileRef = D2B75A871DAA94AF00178EB7 /* test3.html */; };
+		D2B75A891DAA94AF00178EB7 /* test3.html in Resources */ = {isa = PBXBuildFile; fileRef = D2B75A871DAA94AF00178EB7 /* test3.html */; };
 		D2B75A8B1DAA94B900178EB7 /* test4.svg in Resources */ = {isa = PBXBuildFile; fileRef = D2B75A8A1DAA94B900178EB7 /* test4.svg */; };
+		D2B75A8C1DAA94B900178EB7 /* test4.svg in Resources */ = {isa = PBXBuildFile; fileRef = D2B75A8A1DAA94B900178EB7 /* test4.svg */; };
 		D5B2E8AA1C3A780C00C0327D /* ReindeerXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* ReindeerXML.framework */; };
+		D5C6294A1C3A7FAA007F7B7C /* ReindeerXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* ReindeerXML.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +43,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = D5B2E89E1C3A780C00C0327D;
 			remoteInfo = Reindeer;
+		};
+		D5C6294B1C3A7FAA007F7B7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5B2E8961C3A780C00C0327D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5C6293F1C3A7FAA007F7B7C;
+			remoteInfo = "Reindeer-Mac";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,6 +71,8 @@
 		D500FD121C3AAC8E00782D78 /* Playground-Mac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-Mac.playground"; sourceTree = "<group>"; };
 		D5B2E89F1C3A780C00C0327D /* ReindeerXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReindeerXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B2E8A91C3A780C00C0327D /* ReindeerXML-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReindeerXML-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C629401C3A7FAA007F7B7C /* ReindeerXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReindeerXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C629491C3A7FAA007F7B7C /* ReindeerXML-Mac-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReindeerXML-Mac-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C6298B1C3A8BBD007F7B7C /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		D5C6298C1C3A8BBD007F7B7C /* Info-Mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Mac.plist"; sourceTree = "<group>"; };
 		D5C629901C3A8BDA007F7B7C /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
@@ -70,6 +92,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5B2E8AA1C3A780C00C0327D /* ReindeerXML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C6293C1C3A7FAA007F7B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C629461C3A7FAA007F7B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C6294A1C3A7FAA007F7B7C /* ReindeerXML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +130,8 @@
 			children = (
 				D5B2E89F1C3A780C00C0327D /* ReindeerXML.framework */,
 				D5B2E8A91C3A780C00C0327D /* ReindeerXML-iOS-Tests.xctest */,
+				D5C629401C3A7FAA007F7B7C /* ReindeerXML.framework */,
+				D5C629491C3A7FAA007F7B7C /* ReindeerXML-Mac-Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +184,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5C6293D1C3A7FAA007F7B7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -184,6 +230,42 @@
 			productReference = D5B2E8A91C3A780C00C0327D /* ReindeerXML-iOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D5C6293F1C3A7FAA007F7B7C /* ReindeerXML-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C629511C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "ReindeerXML-Mac" */;
+			buildPhases = (
+				D5C6293B1C3A7FAA007F7B7C /* Sources */,
+				D5C6293C1C3A7FAA007F7B7C /* Frameworks */,
+				D5C6293D1C3A7FAA007F7B7C /* Headers */,
+				D5C6293E1C3A7FAA007F7B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReindeerXML-Mac";
+			productName = "Reindeer-Mac";
+			productReference = D5C629401C3A7FAA007F7B7C /* ReindeerXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5C629481C3A7FAA007F7B7C /* ReindeerXML-Mac-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C629541C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "ReindeerXML-Mac-Tests" */;
+			buildPhases = (
+				D5C629451C3A7FAA007F7B7C /* Sources */,
+				D5C629461C3A7FAA007F7B7C /* Frameworks */,
+				D5C629471C3A7FAA007F7B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5C6294C1C3A7FAA007F7B7C /* PBXTargetDependency */,
+			);
+			name = "ReindeerXML-Mac-Tests";
+			productName = "Reindeer-MacTests";
+			productReference = D5C629491C3A7FAA007F7B7C /* ReindeerXML-Mac-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +284,14 @@
 						CreatedOnToolsVersion = 7.2;
 						LastSwiftMigration = 0800;
 					};
+					D5C6293F1C3A7FAA007F7B7C = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+					};
+					D5C629481C3A7FAA007F7B7C = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+					};
 				};
 			};
 			buildConfigurationList = D5B2E8991C3A780C00C0327D /* Build configuration list for PBXProject "ReindeerXML" */;
@@ -217,7 +307,9 @@
 			projectRoot = "";
 			targets = (
 				D5B2E89E1C3A780C00C0327D /* ReindeerXML-iOS */,
+				D5C6293F1C3A7FAA007F7B7C /* ReindeerXML-Mac */,
 				D5B2E8A81C3A780C00C0327D /* ReindeerXML-iOS-Tests */,
+				D5C629481C3A7FAA007F7B7C /* ReindeerXML-Mac-Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,6 +330,24 @@
 				D2B75A881DAA94AF00178EB7 /* test3.html in Resources */,
 				D29680551DAA777F00F42E33 /* test1.xml in Resources */,
 				D2B75A8B1DAA94B900178EB7 /* test4.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C6293E1C3A7FAA007F7B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C629471C3A7FAA007F7B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29680591DAA778A00F42E33 /* test2.xml in Resources */,
+				D2B75A891DAA94AF00178EB7 /* test3.html in Resources */,
+				D29680561DAA777F00F42E33 /* test1.xml in Resources */,
+				D2B75A8C1DAA94B900178EB7 /* test4.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +377,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5C6293B1C3A7FAA007F7B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2525A561DAAD1AB002E759E /* Element+Query.swift in Sources */,
+				D29680451DA99B8C00F42E33 /* Element.swift in Sources */,
+				D29680501DAA691A00F42E33 /* Element+XPath.swift in Sources */,
+				D29680381DA98BB600F42E33 /* Reindeer.swift in Sources */,
+				D29680461DA99B8E00F42E33 /* Document.swift in Sources */,
+				D296804D1DAA311100F42E33 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C629451C3A7FAA007F7B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29680531DAA773900F42E33 /* Tests.swift in Sources */,
+				D296805C1DAA779700F42E33 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -274,6 +406,11 @@
 			isa = PBXTargetDependency;
 			target = D5B2E89E1C3A780C00C0327D /* ReindeerXML-iOS */;
 			targetProxy = D5B2E8AB1C3A780C00C0327D /* PBXContainerItemProxy */;
+		};
+		D5C6294C1C3A7FAA007F7B7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5C6293F1C3A7FAA007F7B7C /* ReindeerXML-Mac */;
+			targetProxy = D5C6294B1C3A7FAA007F7B7C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -393,7 +530,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
 				INFOPLIST_FILE = "$(SRCROOT)/Reindeer/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -401,8 +537,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Reindeer-iOS";
 				PRODUCT_NAME = ReindeerXML;
 				SKIP_INSTALL = YES;
-				"SWIFT_INCLUDE_PATHS[sdk=iphoneos*]" = "${SRCROOT}/Cocoapods/iphoneos/**";
-				"SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]" = "${SRCROOT}/Cocoapods/iphonesimulator/**";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -416,7 +550,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
 				INFOPLIST_FILE = "$(SRCROOT)/Reindeer/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -424,8 +557,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Reindeer-iOS";
 				PRODUCT_NAME = ReindeerXML;
 				SKIP_INSTALL = YES;
-				"SWIFT_INCLUDE_PATHS[sdk=iphoneos*]" = "${SRCROOT}/Cocoapods/iphoneos/**";
-				"SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]" = "${SRCROOT}/Cocoapods/iphonesimulator/**";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -465,6 +596,96 @@
 			};
 			name = Release;
 		};
+		D5C629521C3A7FAA007F7B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Reindeer/Info-Mac.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Reindeer-Mac";
+				PRODUCT_NAME = ReindeerXML;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D5C629531C3A7FAA007F7B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Reindeer/Info-Mac.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Reindeer-Mac";
+				PRODUCT_NAME = ReindeerXML;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D5C629551C3A7FAA007F7B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/ReindeerTests/Info-Mac.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.Reindeer-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D5C629561C3A7FAA007F7B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/ReindeerTests/Info-Mac.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.Reindeer-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -491,6 +712,24 @@
 			buildConfigurations = (
 				D5B2E8B71C3A780C00C0327D /* Debug */,
 				D5B2E8B81C3A780C00C0327D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C629511C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "ReindeerXML-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C629521C3A7FAA007F7B7C /* Debug */,
+				D5C629531C3A7FAA007F7B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C629541C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "ReindeerXML-Mac-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C629551C3A7FAA007F7B7C /* Debug */,
+				D5C629561C3A7FAA007F7B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
