@@ -12,13 +12,8 @@ let headers = [
 ]
 
 let platforms = [
-  "appletvos",
-  "appletvsimulator",
   "iphoneos",
   "iphonesimulator",
-  "macosx",
-  "watchos",
-  "watchsimulator"
 ]
 
 func run() {

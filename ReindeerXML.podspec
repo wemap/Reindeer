@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/**/*.swift'
 
   s.preserve_paths = 'CocoaPods/**/*'
-  s.pod_target_xcconfig = {
-    'SWIFT_INCLUDE_PATHS[sdk=iphoneos*]'         => '$(PODS_ROOT)/Reindeer/CocoaPods/iphoneos',
-    'SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]'  => '$(PODS_ROOT)/Reindeer/CocoaPods/iphonesimulator',
-  }
+#  s.pod_target_xcconfig = {
+#    'SWIFT_INCLUDE_PATHS[sdk=iphoneos*]'         => '$(PODS_ROOT)/Reindeer/CocoaPods/iphoneos',
+#    'SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]'  => '$(PODS_ROOT)/Reindeer/CocoaPods/iphonesimulator',
+#  }
 
   s.library = "xml2"
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
