@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Khoa Pham" => "onmyway133@gmail.com" }
   s.source           = {
-    :git => "https://github.com/onmyway133/Reindeer.git",
+    :git => "https://github.com/wemap/Reindeer.git",
     :tag => s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/onmyway133'
